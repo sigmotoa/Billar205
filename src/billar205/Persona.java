@@ -12,6 +12,34 @@ package billar205;
 public class Persona 
 {
     String nombre;
-    String id;   
+    String id;
+
+    /**
+     * 
+     * @param nombre
+     * Es el nombre para el objeto de tipo perona
+     * @param id 
+     * Es la id para la persona
+     */
+    
+    public Persona(String nombre, String id) {
+        this.nombre = nombre;
+        this.id = id;
+    }
+
+    public Persona(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Persona() {
+        this.nombre="Player";
+        
+    }
+
+    
+    
+    
+    
+    
     
 }
