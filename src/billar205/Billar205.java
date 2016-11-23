@@ -21,7 +21,8 @@ public class Billar205 {
         Persona p2=new Persona("Sergio","12345");
         Persona p3=new Persona("Ivan");
         Persona p4=new Persona();
-        
+        Jugador j1=new Jugador(true,"Ser","123");
+        //Persona pj=new Jugador(true, "al", "31");
         
         
         
